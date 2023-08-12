@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW07/hw07-1-basic-while-loop.cpp",
+      "run": "./a.out",
+      "input": "10",
+      "output": "(1) Hello World\r\n(2) Hello World\r\n(3) Hello World\r\n(4) Hello World\r\n(5) Hello World\r\n(6) Hello World\r\n(7) Hello World\r\n(8) Hello World\r\n(9) Hello World\r\n(10) Hello World",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW07/hw07-1-basic-while-loop.cpp",
+      "run": "./a.out",
+      "input": "7",
+      "output": "[1] Hello World\r\n[2] Hello World\r\n[3] Hello World\r\n[4] Hello World\r\n[5] Hello World\r\n[6] Hello World\r\n[7] Hello World",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
